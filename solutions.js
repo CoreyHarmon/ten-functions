@@ -21,3 +21,59 @@
  * concat
  */
 
+// 1. isTrue
+function isTrue(input) {
+    return input === true;
+}
+
+// 2. isFalse
+function isFalse(input) {
+    return (input) === false;
+}
+
+// 3. not
+function not(input) {
+    return !(input);
+}
+
+// 4. addOne
+function addOne(input) {
+    return Number(input) + 1;
+}
+
+// 5. isEven
+function isEven(n) {
+    let input = parseFloat(n)
+    return input % 2 === 0
+}
+
+// 6. isIdentical
+function isIdentical(input1, input2) {
+    return input1 === input2;
+}
+
+// 7. isEqual should return false when passed "java" and "javascript" as inputs, since they are not equal in value
+function isEqual(input1, input2) {
+    return input1 == input2;
+    }
+
+
+// 8. or
+function or(input1, input2) {
+    return input1 || input2;
+}
+
+// 9. and
+function and(input1, input2) {
+    return input1 && input2;
+}
+
+
+// 10. concat
+// function concat(input1, input2) {
+//     return "".concat (input1, input2)
+// }
+
+function concat(input1, input2) {
+    return (input1.toString() + input2.toString)
+}
